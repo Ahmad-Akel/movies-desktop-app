@@ -1,0 +1,1 @@
+C:\Users\Ahmad\Desktop\School\IPB\Application-Development\C#\Projects\UwpApps\LoginPage\LoginPage\LoginPage.csproj;x86
