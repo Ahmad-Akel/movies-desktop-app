@@ -1,0 +1,9 @@
+C:\Users\Ahmad\Desktop\School\IPB\Application-Development\Movies\Movies.Core\bin\Debug\netstandard2.0\Movies.Core.deps.json
+C:\Users\Ahmad\Desktop\School\IPB\Application-Development\Movies\Movies.Core\bin\Debug\netstandard2.0\Movies.Core.dll
+C:\Users\Ahmad\Desktop\School\IPB\Application-Development\Movies\Movies.Core\bin\Debug\netstandard2.0\Movies.Core.pdb
+C:\Users\Ahmad\Desktop\School\IPB\Application-Development\Movies\Movies.Core\obj\Debug\netstandard2.0\Movies.Core.csprojAssemblyReference.cache
+C:\Users\Ahmad\Desktop\School\IPB\Application-Development\Movies\Movies.Core\obj\Debug\netstandard2.0\Movies.Core.AssemblyInfoInputs.cache
+C:\Users\Ahmad\Desktop\School\IPB\Application-Development\Movies\Movies.Core\obj\Debug\netstandard2.0\Movies.Core.AssemblyInfo.cs
+C:\Users\Ahmad\Desktop\School\IPB\Application-Development\Movies\Movies.Core\obj\Debug\netstandard2.0\Movies.Core.csproj.CoreCompileInputs.cache
+C:\Users\Ahmad\Desktop\School\IPB\Application-Development\Movies\Movies.Core\obj\Debug\netstandard2.0\Movies.Core.dll
+C:\Users\Ahmad\Desktop\School\IPB\Application-Development\Movies\Movies.Core\obj\Debug\netstandard2.0\Movies.Core.pdb
