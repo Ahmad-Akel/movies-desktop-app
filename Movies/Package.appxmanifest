@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="e3a8198e-bcfa-415f-ad05-e6192995e2a0"
-    Publisher="CN=Ahmad"
+    Name="22f370de-21f4-4075-926f-69b13aa2f6a7"
+    Publisher="CN=david"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="e3a8198e-bcfa-415f-ad05-e6192995e2a0" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="22f370de-21f4-4075-926f-69b13aa2f6a7" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>Movies</DisplayName>
-    <PublisherDisplayName>Ahmad</PublisherDisplayName>
+    <PublisherDisplayName>AhmadAkel</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -35,7 +35,7 @@
         DisplayName="Movies"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="Movies"
+        Description="MoviesApp"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />

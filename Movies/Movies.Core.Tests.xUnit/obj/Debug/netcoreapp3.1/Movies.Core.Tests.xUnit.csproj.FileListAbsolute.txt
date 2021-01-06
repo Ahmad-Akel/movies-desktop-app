@@ -1,4 +1,0 @@
-C:\Users\Ahmad\Desktop\School\IPB\Application-Development\Movies\Movies.Core.Tests.xUnit\bin\Debug\netcoreapp3.1\Movies.Core.dll
-C:\Users\Ahmad\Desktop\School\IPB\Application-Development\Movies\Movies.Core.Tests.xUnit\obj\Debug\netcoreapp3.1\Movies.Core.Tests.xUnit.csprojAssemblyReference.cache
-C:\Users\Ahmad\Desktop\School\IPB\Application-Development\Movies\Movies.Core.Tests.xUnit\obj\Debug\netcoreapp3.1\Movies.Core.Tests.xUnit.AssemblyInfoInputs.cache
-C:\Users\Ahmad\Desktop\School\IPB\Application-Development\Movies\Movies.Core.Tests.xUnit\obj\Debug\netcoreapp3.1\Movies.Core.Tests.xUnit.AssemblyInfo.cs

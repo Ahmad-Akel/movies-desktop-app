@@ -1,0 +1,9 @@
+C:\Users\Mahmoud\Downloads\DJsEFBlogExample-master\DJsEFBlogExample-master\DJsEFBlogExample\bin\Debug\netstandard2.0\DJsEFBlogExample.deps.json
+C:\Users\Mahmoud\Downloads\DJsEFBlogExample-master\DJsEFBlogExample-master\DJsEFBlogExample\bin\Debug\netstandard2.0\DJsEFBlogExample.dll
+C:\Users\Mahmoud\Downloads\DJsEFBlogExample-master\DJsEFBlogExample-master\DJsEFBlogExample\bin\Debug\netstandard2.0\DJsEFBlogExample.pdb
+C:\Users\Mahmoud\Downloads\DJsEFBlogExample-master\DJsEFBlogExample-master\DJsEFBlogExample\obj\Debug\netstandard2.0\DJsEFBlogExample.csprojAssemblyReference.cache
+C:\Users\Mahmoud\Downloads\DJsEFBlogExample-master\DJsEFBlogExample-master\DJsEFBlogExample\obj\Debug\netstandard2.0\DJsEFBlogExample.AssemblyInfoInputs.cache
+C:\Users\Mahmoud\Downloads\DJsEFBlogExample-master\DJsEFBlogExample-master\DJsEFBlogExample\obj\Debug\netstandard2.0\DJsEFBlogExample.AssemblyInfo.cs
+C:\Users\Mahmoud\Downloads\DJsEFBlogExample-master\DJsEFBlogExample-master\DJsEFBlogExample\obj\Debug\netstandard2.0\DJsEFBlogExample.csproj.CoreCompileInputs.cache
+C:\Users\Mahmoud\Downloads\DJsEFBlogExample-master\DJsEFBlogExample-master\DJsEFBlogExample\obj\Debug\netstandard2.0\DJsEFBlogExample.dll
+C:\Users\Mahmoud\Downloads\DJsEFBlogExample-master\DJsEFBlogExample-master\DJsEFBlogExample\obj\Debug\netstandard2.0\DJsEFBlogExample.pdb

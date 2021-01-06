@@ -7,24 +7,23 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="e3a8198e-bcfa-415f-ad05-e6192995e2a0" Publisher="CN=Ahmad" Version="1.0.0.0" ProcessorArchitecture="x86" />
-  <mp:PhoneIdentity PhoneProductId="e3a8198e-bcfa-415f-ad05-e6192995e2a0" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="22f370de-21f4-4075-926f-69b13aa2f6a7" Publisher="CN=david" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <mp:PhoneIdentity PhoneProductId="22f370de-21f4-4075-926f-69b13aa2f6a7" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Movies</DisplayName>
-    <PublisherDisplayName>Ahmad</PublisherDisplayName>
+    <PublisherDisplayName>AhmadAkel</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
-    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
-    <PackageDependency Name="Microsoft.NET.CoreRuntime.2.2" MinVersion="2.2.27902.3" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
-    <PackageDependency Name="Microsoft.NET.CoreFramework.Debug.2.2" MinVersion="2.2.28529.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.18362.0" />
+    <PackageDependency Name="Microsoft.NET.CoreRuntime.2.1" MinVersion="2.1.25801.2" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
   </Dependencies>
   <Resources>
     <Resource Language="EN-US" />
   </Resources>
   <Applications>
     <Application Id="App" Executable="Movies.exe" EntryPoint="Movies.App">
-      <uap:VisualElements DisplayName="Movies" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="Movies" BackgroundColor="transparent">
+      <uap:VisualElements DisplayName="Movies" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="MoviesApp" BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>
@@ -47,10 +46,10 @@
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2019" />
     <build:Item Name="OperatingSystem" Version="10.0.19041.1 (WinBuild.160101.0800)" />
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="16.0.30717.112" />
-    <build:Item Name="ProjectGUID" Value="{5920A2E6-0E30-486E-BC31-1704D0E946E0}" />
+    <build:Item Name="ProjectGUID" Value="{30807702-DEB8-4C3E-A6F9-09B5661B22F9}" />
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Managed" />
-    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="10.0.19041.1" />
-    <build:Item Name="MakePri.exe" Version="10.0.19041.1 (WinBuild.160101.0800)" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="10.0.18362.1" />
+    <build:Item Name="MakePri.exe" Version="10.0.18362.1 (WinBuild.160101.0800)" />
   </build:Metadata>
 </Package>

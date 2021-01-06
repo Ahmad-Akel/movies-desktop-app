@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="Movies.Views.LoginPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Movies.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid RenderTransformOrigin="0.5,0.507">
+        <TextBlock  x:Name="pageTitle" Text="Login Page" FontSize="40px" Width="200px" Height="60px" Margin="539,81,541,579"   />
+
+        <Button Style="{StaticResource AccentButtonStyle}" Background="#3B3DBF" Content="Login" Width="150px"  Height="50px" VerticalAlignment="Top" Margin="878,663,0,0" Click="Button_Click"  />
+        <PasswordBox x:Name="Login_Password_TextBox" Width="300" Header="Password" PlaceholderText="Enter your password" PasswordChar="#" FontSize="23px" Height="70px" Margin="490,360,490,290" />
+        <TextBox x:Name="Login_username_TextBox" Width="300px" Header="Username" PlaceholderText="Enter your name" Height="70px" FontSize="23px" Margin="490,219,490,431" />
+        <HyperlinkButton Content="register to create new account"
+                Click="HyperlinkButton_Click"  VerticalAlignment="Top" Margin="859,723,0,0"    />
+    </Grid>
+
+</Page>

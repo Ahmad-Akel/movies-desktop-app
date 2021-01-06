@@ -1,0 +1,11 @@
+C:\Users\Mahmoud\Downloads\DJsEFBlogExample-master\MoviesApplication\Movies\obj\ARM\Debug\Movies.csprojAssemblyReference.cache
+C:\Users\Mahmoud\Downloads\DJsEFBlogExample-master\MoviesApplication\Movies\obj\ARM\Debug\App.g.i.cs
+C:\Users\Mahmoud\Downloads\DJsEFBlogExample-master\MoviesApplication\Movies\obj\ARM\Debug\App.g.cs
+C:\Users\Mahmoud\Downloads\DJsEFBlogExample-master\MoviesApplication\Movies\obj\ARM\Debug\MainPage.g.i.cs
+C:\Users\Mahmoud\Downloads\DJsEFBlogExample-master\MoviesApplication\Movies\obj\ARM\Debug\MainPage.g.cs
+C:\Users\Mahmoud\Downloads\DJsEFBlogExample-master\MoviesApplication\Movies\obj\ARM\Debug\XamlTypeInfo.g.cs
+C:\Users\Mahmoud\Downloads\DJsEFBlogExample-master\MoviesApplication\Movies\obj\ARM\Debug\App.xaml
+C:\Users\Mahmoud\Downloads\DJsEFBlogExample-master\MoviesApplication\Movies\obj\ARM\Debug\MainPage.xaml
+C:\Users\Mahmoud\Downloads\DJsEFBlogExample-master\MoviesApplication\Movies\obj\ARM\Debug\App.xbf
+C:\Users\Mahmoud\Downloads\DJsEFBlogExample-master\MoviesApplication\Movies\obj\ARM\Debug\MainPage.xbf
+C:\Users\Mahmoud\Downloads\DJsEFBlogExample-master\MoviesApplication\Movies\obj\ARM\Debug\XamlSaveStateFile.xml
