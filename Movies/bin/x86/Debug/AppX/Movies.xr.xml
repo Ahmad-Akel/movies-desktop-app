@@ -2,15 +2,6 @@
 <Roots >
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="Url" />
-    <RootPropertyPathName Name="Ascents" />
-    <RootPropertyPathName Name="First_ascent" />
-    <RootPropertyPathName Name="Prominence" />
-    <RootPropertyPathName Name="Coordinates" />
-    <RootPropertyPathName Name="Parent_mountain" />
-    <RootPropertyPathName Name="Range" />
-    <RootPropertyPathName Name="Height_m" />
-    <RootPropertyPathName Name="Mountain" />
-    <RootPropertyPathName Name="Rank" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application">
@@ -25,22 +16,12 @@
       <RootProperty Name="Background" />
       <RootProperty Name="Children" />
       <RootProperty Name="RenderTransformOrigin" />
-      <RootProperty Name="Resources" />
-      <RootProperty Name="RowDefinitions" />
       <RootProperty Name="Margin" />
-      <RootProperty Name="Padding" />
-      <RootProperty Name="ColumnDefinitions" />
-      <RootMethod Name="GetRow" />
-      <RootMethod Name="SetRow" />
-      <RootMethod Name="GetColumn" />
-      <RootMethod Name="SetColumn" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="Children" />
       <RootProperty Name="Orientation" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="Background" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="Text" />
@@ -54,6 +35,7 @@
       <RootProperty Name="FontSize" />
       <RootProperty Name="Margin" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Width" />
@@ -65,11 +47,9 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="TextWrapping" />
       <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Height" />
       <RootProperty Name="FontSize" />
+      <RootProperty Name="Height" />
       <RootProperty Name="RenderTransformOrigin" />
-      <RootProperty Name="FontWeight" />
-      <RootProperty Name="Style" />
       <RootEvent Name="SelectionChanged" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
@@ -85,13 +65,11 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Margin" />
       <RootProperty Name="Content" />
+      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
-      <RootProperty Name="FontSize" />
-      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Style" />
       <RootProperty Name="Background" />
-      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="RenderTransformOrigin" />
       <RootEvent Name="Click" />
     </RootType>
@@ -108,9 +86,8 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.HyperlinkButton">
       <RootProperty Name="Content" />
-      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Margin" />
-      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="Height" />
       <RootEvent Name="Click" />
@@ -118,65 +95,34 @@
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="Movies.Views.LoginPage" />
     <RootType FullName="Movies.Views.MainPage" />
+    <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGrid">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="AutoGenerateColumns" />
+      <RootProperty Name="Columns" />
+    </RootType>
+    <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGridTextColumn">
+      <RootProperty Name="Header" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="ElementStyle" />
+      <RootProperty Name="EditingElementStyle" />
+    </RootType>
+    <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGridCheckBoxColumn">
+      <RootProperty Name="Header" />
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Setter">
+      <RootProperty Name="Property" />
+      <RootProperty Name="Value" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Control">
+      <RootProperty Name="Foreground" />
+    </RootType>
     <RootType FullName="Movies.Views.MoviesDataGrid" />
     <RootType FullName="Windows.UI.Xaml.Controls.Primitives.Popup">
       <RootProperty Name="Child" />
     </RootType>
     <RootType FullName="Movies.Views.RegisterPage" />
-    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
-      <RootProperty Name="Height" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
-      <RootProperty Name="Width" />
-    </RootType>
-    <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGrid">
-      <RootProperty Name="Margin" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="HorizontalScrollBarVisibility" />
-      <RootProperty Name="VerticalScrollBarVisibility" />
-      <RootProperty Name="AlternatingRowBackground" />
-      <RootProperty Name="AlternatingRowForeground" />
-      <RootProperty Name="AreRowDetailsFrozen" />
-      <RootProperty Name="AreRowGroupHeadersFrozen" />
-      <RootProperty Name="AutoGenerateColumns" />
-      <RootProperty Name="CanUserSortColumns" />
-      <RootProperty Name="CanUserReorderColumns" />
-      <RootProperty Name="CanUserResizeColumns" />
-      <RootProperty Name="ColumnHeaderHeight" />
-      <RootProperty Name="MaxColumnWidth" />
-      <RootProperty Name="FrozenColumnCount" />
-      <RootProperty Name="GridLinesVisibility" />
-      <RootProperty Name="HeadersVisibility" />
-      <RootProperty Name="IsReadOnly" />
-      <RootProperty Name="RowDetailsTemplate" />
-      <RootProperty Name="RowDetailsVisibilityMode" />
-      <RootProperty Name="SelectionMode" />
-      <RootProperty Name="Background" />
-      <RootProperty Name="RowGroupHeaderPropertyNameAlternative" />
-      <RootProperty Name="Columns" />
-    </RootType>
-    <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGridTextColumn">
-      <RootProperty Name="Header" />
-      <RootProperty Name="Binding" />
-      <RootProperty Name="Tag" />
-    </RootType>
-    <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGridComboBoxColumn">
-      <RootProperty Name="Header" />
-      <RootProperty Name="Binding" />
-      <RootProperty Name="Tag" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
-      <RootProperty Name="Icon" />
-      <RootProperty Name="Label" />
-      <RootProperty Name="Flyout" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.MenuFlyout">
-      <RootProperty Name="Items" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.MenuFlyoutItem">
-      <RootProperty Name="Text" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.MenuFlyoutSeparator" />
+    <RootType FullName="Movies.Views.UserDataGrid" />
   </Roots.RootTypes>
 </Roots>

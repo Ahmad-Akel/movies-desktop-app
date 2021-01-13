@@ -10,11 +10,11 @@
     <Grid RenderTransformOrigin="0.5,0.507">
         <TextBlock  x:Name="pageTitle" Text="Login Page" FontSize="40px" Width="200px" Height="60px" Margin="539,81,541,579"   />
 
-        <Button Style="{StaticResource AccentButtonStyle}" Background="#3B3DBF" Content="Login" Width="150px"  Height="50px" VerticalAlignment="Top" Margin="878,663,0,0" Click="Button_Click"  />
+        <Button Style="{StaticResource AccentButtonStyle}" Background="#3B3DBF" Content="Login" Width="150px"  Height="50px" Margin="363,530,0,0" Click="Button_Click" VerticalAlignment="Top"  />
         <PasswordBox x:Name="Login_Password_TextBox" Width="300" Header="Password" PlaceholderText="Enter your password" PasswordChar="#" FontSize="23px" Height="70px" Margin="490,360,490,290" />
         <TextBox x:Name="Login_username_TextBox" Width="300px" Header="Username" PlaceholderText="Enter your name" Height="70px" FontSize="23px" Margin="490,219,490,431" />
         <HyperlinkButton Content="register to create new account"
-                Click="HyperlinkButton_Click"  VerticalAlignment="Top" Margin="859,723,0,0"    />
+                Click="HyperlinkButton_Click" Margin="327,620,0,0" VerticalAlignment="Top"    />
     </Grid>
 
 </Page>

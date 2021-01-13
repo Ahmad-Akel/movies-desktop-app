@@ -27,7 +27,7 @@ namespace Movies.Views
         private UserViewModel userViewModel =  new UserViewModel();
         public LoginPage()
         {
-            this.InitializeComponent();
+           this.InitializeComponent();
         }
 
         private void HyperlinkButton_Click(object sender, RoutedEventArgs e)

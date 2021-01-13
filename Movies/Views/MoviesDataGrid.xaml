@@ -3,14 +3,65 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Movies.Views"
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        <TextBlock HorizontalAlignment="Left"  Text="Edit Movies" TextWrapping="Wrap" Width="221" FontSize="40px" Margin="10,10,0,634"/>
-        <HyperlinkButton Content="Back to Control Panel"
-                Click="HyperlinkButton_Click_U"  VerticalAlignment="Center" HorizontalAlignment="Center"    />
+    <Grid Margin="0,10,0,0">
+        <controls:DataGrid x:Name="dataGrid1" Margin="12,10,12,10"
+    AutoGenerateColumns="False"
+   >
+            <controls:DataGrid.Columns>
+                <controls:DataGridTextColumn 
+            Header="ID" 
+            Width="SizeToHeader"
+           
+            FontSize="20" />
+                <controls:DataGridTextColumn 
+            Header="Title" 
+            Width="SizeToHeader"
+           
+            FontSize="20" />
+                <controls:DataGridTextColumn 
+            Header="Price" 
+            Width="SizeToHeader"
+           
+            FontSize="20" />
+
+                <controls:DataGridTextColumn 
+            Header="Categories"
+            Width="SizeToHeader"
+           >
+                    <controls:DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="TextWrapping" Value="Wrap"/>
+                        </Style>
+                    </controls:DataGridTextColumn.ElementStyle>
+                    <controls:DataGridTextColumn.EditingElementStyle>
+                        <Style TargetType="TextBox">
+                            <Setter Property="Foreground" Value="Blue"/>
+                        </Style>
+                    </controls:DataGridTextColumn.EditingElementStyle>
+                </controls:DataGridTextColumn>
+                <controls:DataGridCheckBoxColumn 
+            Header="New?" 
+            Width="40"
+            />
+            </controls:DataGrid.Columns>
+        </controls:DataGrid>
+        <TextBlock HorizontalAlignment="Left" Margin="12,536,0,0" Text="Movie Name:" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,584,0,0" Text="Categorie:" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="12,634,0,0" Text="ID:" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="12,685,0,0" Text="Price:" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="197,536,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="203"/>
+        <TextBox HorizontalAlignment="Left" Margin="197,584,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="203"/>
+        <TextBox HorizontalAlignment="Left" Margin="197,634,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="203"/>
+        <TextBox HorizontalAlignment="Left" Margin="197,684,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="203"/>
+        <Button Content="Add" Margin="557,561,0,0" VerticalAlignment="Top" Width="100px"/>
+        <Button Content="Delete" Margin="557,611,0,0" VerticalAlignment="Top" Width="100px"/>
+        <Button Content="Update" Margin="557,662,0,0" VerticalAlignment="Top" Width="100px"/>
+        <HyperlinkButton Content="Back to Control Panel" Margin="760,694,0,0" VerticalAlignment="Top" Click="HyperlinkButton_Click_Movie"/>
     </Grid>
 </Page>

@@ -26,11 +26,6 @@ namespace Movies.Views
         {
             this.InitializeComponent();
         }
-
-        private void InitializeComponent()
-        {
-            
-        }
         private void HyperlinkButton_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(ControlPanel));

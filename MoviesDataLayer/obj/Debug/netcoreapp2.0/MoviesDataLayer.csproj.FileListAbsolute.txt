@@ -31,3 +31,14 @@ C:\Users\Ahmad\Desktop\MoviesApplication\MoviesDataLayer\obj\Debug\netcoreapp2.0
 C:\Users\Ahmad\Desktop\MoviesApplication\MoviesDataLayer\obj\Debug\netcoreapp2.0\MoviesDataLayer.dll
 C:\Users\Ahmad\Desktop\MoviesApplication\MoviesDataLayer\obj\Debug\netcoreapp2.0\MoviesDataLayer.pdb
 C:\Users\Ahmad\Desktop\MoviesApplication\MoviesDataLayer\obj\Debug\netcoreapp2.0\MoviesDataLayer.genruntimeconfig.cache
+C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\MoviesDataLayer\bin\Debug\netcoreapp2.0\MoviesDataLayer.deps.json
+C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\MoviesDataLayer\bin\Debug\netcoreapp2.0\MoviesDataLayer.runtimeconfig.json
+C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\MoviesDataLayer\bin\Debug\netcoreapp2.0\MoviesDataLayer.runtimeconfig.dev.json
+C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\MoviesDataLayer\bin\Debug\netcoreapp2.0\MoviesDataLayer.dll
+C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\MoviesDataLayer\bin\Debug\netcoreapp2.0\MoviesDataLayer.pdb
+C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\MoviesDataLayer\obj\Debug\netcoreapp2.0\MoviesDataLayer.AssemblyInfoInputs.cache
+C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\MoviesDataLayer\obj\Debug\netcoreapp2.0\MoviesDataLayer.AssemblyInfo.cs
+C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\MoviesDataLayer\obj\Debug\netcoreapp2.0\MoviesDataLayer.csproj.CoreCompileInputs.cache
+C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\MoviesDataLayer\obj\Debug\netcoreapp2.0\MoviesDataLayer.dll
+C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\MoviesDataLayer\obj\Debug\netcoreapp2.0\MoviesDataLayer.pdb
+C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\MoviesDataLayer\obj\Debug\netcoreapp2.0\MoviesDataLayer.genruntimeconfig.cache

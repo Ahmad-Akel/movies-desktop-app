@@ -32,7 +32,9 @@ namespace Movies.Views
         }
         private void Button_Click_Movies(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(UserDataGrid));
+            this.Frame.Navigate(typeof(MoviesDataGrid));
         }
+        
+        
     }
 }
