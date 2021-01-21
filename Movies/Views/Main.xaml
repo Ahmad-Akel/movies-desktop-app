@@ -1,0 +1,46 @@
+﻿<Page
+    x:Class="Movies.Views.Main"
+      
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Movies.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
+   
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <NavigationView x:Name="NavView">
+            
+            <NavigationView.MenuItems>
+                
+                <NavigationViewItem x:Uid="HomeNavItem" Content="Home" Tag="home">
+                    <NavigationViewItem.Icon>
+                        <FontIcon Glyph="&#xE10F;"/>
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+                <NavigationViewItemSeparator/>
+                <NavigationViewItemHeader Content="Main pages"/>
+                <NavigationViewItem x:Uid="FavoriteNavItem" Icon="Favorite" Content="Favorites" Tag="favorites"/>
+                <NavigationViewItem x:Uid="VideoNavItem" Icon="Video" Content="Ownde Movies" Tag="ownedmovie"/>
+                <NavigationViewItem x:Uid="PlayNavItem" Icon="Play" Content="Movies" Tag="movies"/>
+                <NavigationViewItem x:Uid="AccountNavItem" Icon="Account" Content="My Account" Tag="myccount" />
+                <NavigationViewItem x:Uid="BackNavItem" Icon="Back" Content="Logout" Tag="logout"  />
+            </NavigationView.MenuItems>
+
+            <Frame x:Name="ContentFrame" Margin="24">
+                <Frame.ContentTransitions>
+                    <TransitionCollection>
+                        <NavigationThemeTransition/>
+                        
+                    </TransitionCollection>
+                   
+                </Frame.ContentTransitions>
+               
+                                                      
+            </Frame>
+        </NavigationView>
+    </Grid>
+</Page>

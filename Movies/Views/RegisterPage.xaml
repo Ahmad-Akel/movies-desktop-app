@@ -9,7 +9,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid RenderTransformOrigin="0.5,0.84">
-        <TextBlock x:Name="pageTitle" Text="Register Page" RenderTransformOrigin="0.516,0.826"  FontSize="30px" Width="200px" Height="40px" Margin="228,10,852,670"/>
+
         <HyperlinkButton Content="Back to Login" 
                  Click="HyperlinkButton_Click" RenderTransformOrigin="0.498,6.594" Height="70"  Margin="140,650,0,0" VerticalAlignment="Top" />
         <TextBlock HorizontalAlignment="Left"  Text="Username" TextWrapping="Wrap" Width="100px" Height="30px" Margin="227,231,0,459" />
@@ -22,5 +22,6 @@
         <Popup>
             <Grid Background="#FFE5E5E5"/>
         </Popup>
+        <TextBlock HorizontalAlignment="Left" Margin="317,150,0,0" Text="Register Page" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40px"/>
     </Grid>
 </Page>

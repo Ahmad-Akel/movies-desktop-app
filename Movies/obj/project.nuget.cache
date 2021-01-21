@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9H6qr24mfcPyNI4E9so64w3FShEA5fspJP8c0ov4J/Cb7KEtL8Ed3PvrFmhdRdBQNthdZtffz63qK4HbQO0ZjA==",
+  "dgSpecHash": "WGwfX9Y8RHT99YrudcPJbraubc0Cqt7OMcTY3RdFVrMyqAWfdxO++5L1ZeIXu0fctC9+UykntBABmH1JGlnXbQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ahmad\\Desktop\\School\\IPB\\Application-Development\\wd-final-project-group-17\\Movies\\Movies.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,7 @@
     "C:\\Users\\Ahmad\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\Ahmad\\.nuget\\packages\\microsoft.netcore.universalwindowsplatform\\6.0.6\\microsoft.netcore.universalwindowsplatform.6.0.6.nupkg.sha512",
     "C:\\Users\\Ahmad\\.nuget\\packages\\microsoft.toolkit.uwp.ui.controls.datagrid\\6.1.1\\microsoft.toolkit.uwp.ui.controls.datagrid.6.1.1.nupkg.sha512",
+    "C:\\Users\\Ahmad\\.nuget\\packages\\microsoft.ui.xaml\\2.5.0\\microsoft.ui.xaml.2.5.0.nupkg.sha512",
     "C:\\Users\\Ahmad\\.nuget\\packages\\netstandard.library\\2.0.1\\netstandard.library.2.0.1.nupkg.sha512",
     "C:\\Users\\Ahmad\\.nuget\\packages\\remotion.linq\\2.2.0\\remotion.linq.2.2.0.nupkg.sha512",
     "C:\\Users\\Ahmad\\.nuget\\packages\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform\\6.0.6\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.6.0.6.nupkg.sha512",

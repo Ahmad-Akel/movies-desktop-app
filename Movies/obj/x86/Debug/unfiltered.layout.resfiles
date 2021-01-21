@@ -1,5 +1,12 @@
 WinMetadata\Windows.winmd
+Assets\Avengers.jpg
+Assets\BreakingBad.jpg
+Assets\Chess.jpg
+Assets\Joker.jpg
 Assets\LockScreenLogo.scale-200.png
+Assets\me.jpg
+Assets\MrRobot.jpg
+Assets\Rick&Morty.jpg
 Assets\SplashScreen.scale-200.png
 Assets\Square150x150Logo.scale-200.png
 Assets\Square44x44Logo.scale-200.png
@@ -11,6 +18,7 @@ MainPage.xbf
 Movies.xr.xml
 Views\ControlPanel.xbf
 Views\LoginPage.xbf
+Views\Main.xbf
 Views\MainPage.xbf
 Views\MoviesDataGrid.xbf
 Views\RegisterPage.xbf

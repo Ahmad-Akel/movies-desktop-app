@@ -8,13 +8,19 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
     <Grid RenderTransformOrigin="0.5,0.507">
-        <TextBlock  x:Name="pageTitle" Text="Login Page" FontSize="40px" Width="200px" Height="60px" Margin="539,81,541,579"   />
 
-        <Button Style="{StaticResource AccentButtonStyle}" Background="#3B3DBF" Content="Login" Width="150px"  Height="50px" Margin="363,530,0,0" Click="Button_Click" VerticalAlignment="Top"  />
-        <PasswordBox x:Name="Login_Password_TextBox" Width="300" Header="Password" PlaceholderText="Enter your password" PasswordChar="#" FontSize="23px" Height="70px" Margin="490,360,490,290" />
-        <TextBox x:Name="Login_username_TextBox" Width="300px" Header="Username" PlaceholderText="Enter your name" Height="70px" FontSize="23px" Margin="490,219,490,431" />
+
+        <Button Style="{StaticResource AccentButtonStyle}" Background="#3B3DBF" Content="Login" Width="200"  Height="60" Margin="426,505,0,0" Click="Button_Click" VerticalAlignment="Top"  />
+        <!--<TextBox Name="Login_Password_TextBox" Header="Password" PlaceholderText="Enter your password"  FontSize="23px" Margin="575,369,599,637"  />-->
+        <!--<TextBox Name="Login_username_TextBox" Header="Username" PlaceholderText="Enter your name" FontSize="23px" Margin="575,288,599,718" />-->
         <HyperlinkButton Content="register to create new account"
-                Click="HyperlinkButton_Click" Margin="327,620,0,0" VerticalAlignment="Top"    />
+                Click="HyperlinkButton_Click" Margin="229,641,0,0" VerticalAlignment="Top" Height="49" Width="595"    />
+        <TextBox Name="Login_username_TextBox" HorizontalAlignment="Left" Margin="345,305,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="400px" Height="40px"/>
+        <TextBlock  HorizontalAlignment="Left" Margin="427,145,0,0" Text="Login Page" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40px"/>
+        <PasswordBox Name="Login_Password_TextBox" HorizontalAlignment="Left" Margin="345,409,0,0" VerticalAlignment="Top" Width="400px" Height="40px"/>
+        <TextBlock HorizontalAlignment="Left" Margin="345,281,0,0" Text="Username" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="345,385,0,0" Text="Password" TextWrapping="Wrap" VerticalAlignment="Top"/>
+
     </Grid>
 
 </Page>

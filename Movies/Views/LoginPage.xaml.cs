@@ -43,14 +43,15 @@ namespace Movies.Views
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
             MessageDialog message;
-            if(!string.IsNullOrEmpty (Login_username_TextBox.Text) && !string.IsNullOrEmpty (Login_Password_TextBox.Password.ToString()))
+            if(!string.IsNullOrEmpty (Login_username_TextBox.Text) && !string.IsNullOrEmpty (Login_Password_TextBox.ToString()))
             {
-                bool LoggedIn = userViewModel.UserLogin(Login_username_TextBox.Text, Login_Password_TextBox.Password.ToString());
+                bool LoggedIn = userViewModel.UserLogin(Login_username_TextBox.Text, Login_Password_TextBox.ToString());
                 if(LoggedIn)
                 {
                     message = new MessageDialog("Welcome  " + Login_username_TextBox.Text, "Information");
                  await   message.ShowAsync();
-                    this.Frame.Navigate(typeof(MainPage));
+                    //this.Frame.Navigate(typeof(MainPage));
+                   
                 }
                 else
                 {
@@ -62,7 +63,7 @@ namespace Movies.Views
                 message = new MessageDialog("Invaild Input ");
                 await message.ShowAsync();
             }
-            
+            this.Frame.Navigate(typeof(Main));
         }
     }
 }

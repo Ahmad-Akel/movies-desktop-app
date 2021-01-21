@@ -1434,3 +1434,9 @@ C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group
 C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\obj\x86\Debug\FxResources.System.Collections.Immutable.SR.resw
 C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\obj\x86\Debug\FxResources.System.Memory.SR.resw
 C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\obj\x86\Debug\Movies.csprojAssemblyReference.cache
+C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\obj\x86\Debug\Microsoft.UI.Xaml.pri.xml
+C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\obj\x86\Debug\Views\Main.g.i.cs
+C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\obj\x86\Debug\Views\Main.g.cs
+C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\obj\x86\Debug\Views\Main.xaml
+C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\obj\x86\Debug\Views\Main.xbf
+C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Views\Main.xbf
