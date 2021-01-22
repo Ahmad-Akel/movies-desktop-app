@@ -12,21 +12,17 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <NavigationView x:Name="NavView">
+        <NavigationView x:Name="NavView" Loaded="NavigationView_Loaded" SelectionChanged="NavigationView_SelectionChanged">
             
             <NavigationView.MenuItems>
-                
-                <NavigationViewItem x:Uid="HomeNavItem" Content="Home" Tag="home">
-                    <NavigationViewItem.Icon>
-                        <FontIcon Glyph="&#xE10F;"/>
-                    </NavigationViewItem.Icon>
-                </NavigationViewItem>
+               
                 <NavigationViewItemSeparator/>
                 <NavigationViewItemHeader Content="Main pages"/>
-                <NavigationViewItem x:Uid="FavoriteNavItem" Icon="Favorite" Content="Favorites" Tag="favorites"/>
-                <NavigationViewItem x:Uid="VideoNavItem" Icon="Video" Content="Ownde Movies" Tag="ownedmovie"/>
+                <NavigationViewItem x:Uid="FavoriteNavItem" Icon="Favorite" Content="Favorites" Tag="favorites" />
+                <NavigationViewItem x:Uid="VideoNavItem" Icon="Video" Content="Owned Movies" Tag="ownedmovie"/>
                 <NavigationViewItem x:Uid="PlayNavItem" Icon="Play" Content="Movies" Tag="movies"/>
-                <NavigationViewItem x:Uid="AccountNavItem" Icon="Account" Content="My Account" Tag="myccount" />
+                <NavigationViewItem x:Uid="AccountNavItem" Icon="Account" Content="My Account" Tag="myaccount" />
+                <NavigationViewItem x:Uid="CardNavItem" Icon="Calculator" Content="My Card" Tag="mycard" />
                 <NavigationViewItem x:Uid="BackNavItem" Icon="Back" Content="Logout" Tag="logout"  />
             </NavigationView.MenuItems>
 

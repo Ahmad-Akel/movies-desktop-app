@@ -103,13 +103,28 @@
     <Compile Include="Views\ControlPanel.xaml.cs">
       <DependentUpon>ControlPanel.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\Favorite.xaml.cs">
+      <DependentUpon>Favorite.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\LoginPage.xaml.cs" />
     <Compile Include="Views\Main.xaml.cs">
       <DependentUpon>Main.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\MainPage.xaml.cs" />
+    <Compile Include="Views\Movies.xaml.cs">
+      <DependentUpon>Movies.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\MoviesDataGrid.xaml.cs">
       <DependentUpon>MoviesDataGrid.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MyAccount.xaml.cs">
+      <DependentUpon>MyAccount.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MyCard.xaml.cs">
+      <DependentUpon>MyCard.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\OwnedMovies.xaml.cs">
+      <DependentUpon>OwnedMovies.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\RegisterPage.xaml.cs" />
     <Compile Include="Views\UserDataGrid.xaml.cs">
@@ -151,6 +166,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\Favorite.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\LoginPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -163,7 +182,23 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Views\Movies.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\MoviesDataGrid.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MyAccount.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MyCard.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\OwnedMovies.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

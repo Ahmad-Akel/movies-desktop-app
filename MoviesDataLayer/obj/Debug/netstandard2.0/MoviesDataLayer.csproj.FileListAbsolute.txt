@@ -30,4 +30,3 @@ C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group
 C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\MoviesDataLayer\obj\Debug\netstandard2.0\MoviesDataLayer.csproj.CoreCompileInputs.cache
 C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\MoviesDataLayer\obj\Debug\netstandard2.0\MoviesDataLayer.dll
 C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\MoviesDataLayer\obj\Debug\netstandard2.0\MoviesDataLayer.pdb
-C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\MoviesDataLayer\obj\Debug\netstandard2.0\MoviesDataLayer.csprojAssemblyReference.cache

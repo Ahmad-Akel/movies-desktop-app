@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-21T01:35:18.942</Modified>
+      <Modified>2021-01-22T00:41:38.600</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Movies.exe">
       <PackagePath>entrypoint\Movies.exe</PackagePath>
-      <Modified>2021-01-21T01:35:16.156</Modified>
+      <Modified>2021-01-22T00:41:35.881</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ahmad\.nuget\packages\microsoft.data.sqlite.core\2.1.0\lib\netstandard2.0\Microsoft.Data.Sqlite.dll">
       <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
@@ -804,7 +804,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\MoviesDataLayer\bin\Debug\netstandard2.0\MoviesDataLayer.dll">
       <PackagePath>MoviesDataLayer.dll</PackagePath>
-      <Modified>2021-01-21T01:30:07.683</Modified>
+      <Modified>2021-01-22T00:27:05.718</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
@@ -820,7 +820,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\Assets\BreakingBad.jpg">
       <PackagePath>Assets\BreakingBad.jpg</PackagePath>
-      <Modified>2021-01-21T00:23:38.400</Modified>
+      <Modified>2021-01-21T16:12:43.811</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\Assets\Chess.jpg">
       <PackagePath>Assets\Chess.jpg</PackagePath>
@@ -882,43 +882,63 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Movies.xr.xml">
       <PackagePath>Movies.xr.xml</PackagePath>
-      <Modified>2021-01-21T01:33:01.614</Modified>
+      <Modified>2021-01-22T00:40:05.153</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-01-21T01:35:15.914</Modified>
+      <Modified>2021-01-22T00:34:37.318</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-01-21T01:35:15.915</Modified>
+      <Modified>2021-01-22T00:34:37.318</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Views\ControlPanel.xbf">
       <PackagePath>Views\ControlPanel.xbf</PackagePath>
-      <Modified>2021-01-21T01:35:15.915</Modified>
+      <Modified>2021-01-22T00:34:37.319</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Views\Favorite.xbf">
+      <PackagePath>Views\Favorite.xbf</PackagePath>
+      <Modified>2021-01-22T00:41:35.592</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Views\LoginPage.xbf">
       <PackagePath>Views\LoginPage.xbf</PackagePath>
-      <Modified>2021-01-21T01:35:15.916</Modified>
+      <Modified>2021-01-22T00:34:37.320</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Views\Main.xbf">
       <PackagePath>Views\Main.xbf</PackagePath>
-      <Modified>2021-01-21T01:35:15.916</Modified>
+      <Modified>2021-01-22T00:34:37.321</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2021-01-21T01:35:15.917</Modified>
+      <Modified>2021-01-22T00:34:37.321</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Views\Movies.xbf">
+      <PackagePath>Views\Movies.xbf</PackagePath>
+      <Modified>2021-01-22T00:34:37.322</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Views\MoviesDataGrid.xbf">
       <PackagePath>Views\MoviesDataGrid.xbf</PackagePath>
-      <Modified>2021-01-21T01:35:15.917</Modified>
+      <Modified>2021-01-22T00:34:37.322</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Views\MyAccount.xbf">
+      <PackagePath>Views\MyAccount.xbf</PackagePath>
+      <Modified>2021-01-22T00:34:37.323</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Views\MyCard.xbf">
+      <PackagePath>Views\MyCard.xbf</PackagePath>
+      <Modified>2021-01-22T00:34:37.323</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Views\OwnedMovies.xbf">
+      <PackagePath>Views\OwnedMovies.xbf</PackagePath>
+      <Modified>2021-01-22T00:34:37.324</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Views\RegisterPage.xbf">
       <PackagePath>Views\RegisterPage.xbf</PackagePath>
-      <Modified>2021-01-21T01:35:15.917</Modified>
+      <Modified>2021-01-22T00:34:37.324</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Views\UserDataGrid.xbf">
       <PackagePath>Views\UserDataGrid.xbf</PackagePath>
-      <Modified>2021-01-21T01:35:15.918</Modified>
+      <Modified>2021-01-22T00:34:37.325</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -934,11 +954,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-01-21T01:33:07.721</Modified>
+      <Modified>2021-01-22T00:31:54.863</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Core\Movies.exe">
       <PackagePath>Movies.exe</PackagePath>
-      <Modified>2021-01-21T01:35:18.929</Modified>
+      <Modified>2021-01-22T00:41:38.588</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

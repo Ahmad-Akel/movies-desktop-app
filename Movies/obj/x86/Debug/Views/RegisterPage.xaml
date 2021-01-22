@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="Movies.Views.RegisterPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MyBlog.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid RenderTransformOrigin="0.5,0.84">
+
+        <HyperlinkButton x:ConnectionId='2' Content="Back to Login" 
+                                               RenderTransformOrigin="0.498,6.594" Height="70"  Margin="140,650,0,0" VerticalAlignment="Top" />
+        <TextBlock HorizontalAlignment="Left"  Text="Username" TextWrapping="Wrap" Width="100px" Height="30px" Margin="227,231,0,459" />
+        <TextBox x:ConnectionId='3' x:Name="Reg_Pass_textbox" HorizontalAlignment="Left" Margin="228,343,0,337" Text="" TextWrapping="Wrap" Width="500px" Height="40px"/>
+        <TextBlock x:ConnectionId='4' HorizontalAlignment="Left" Margin="227,320,0,370" Text="Password" TextWrapping="Wrap" Width="100px" Height="30px"                                              />
+        <TextBox x:ConnectionId='5' x:Name="Reg_username_textbox" HorizontalAlignment="Left" Margin="227,250,0,430" Text="" TextWrapping="Wrap" Width="500px" Height="40px"/>
+        <TextBlock HorizontalAlignment="Left" Margin="232,416,0,274" Text="Confirm password" TextWrapping="Wrap" Width="150px" Height="30px"/>
+        <TextBox x:ConnectionId='6' x:Name="Reg_CoPass_textbox" HorizontalAlignment="Left" Margin="228,440,0,240" Text="" TextWrapping="Wrap" Width="500px" Height="40px"/>
+        <Button x:ConnectionId='7' Style="{StaticResource AccentButtonStyle}" Content="Register" Margin="406,620,0,0"  Background="#3B3DBF"  Width="150px"  Height="50px" RenderTransformOrigin="0.552,-0.467"                      />
+        <Popup>
+            <Grid Background="#FFE5E5E5"/>
+        </Popup>
+        <TextBlock HorizontalAlignment="Left" Margin="317,150,0,0" Text="Register Page" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40px"/>
+    </Grid>
+</Page>
+

@@ -11,12 +11,13 @@ namespace MoviesDataLayer.UWP.Models
     {
         public Movie()
         {
-            this.Categories = new List<Categories>();
+            
         }
         [Key]
         public int MovieId { get; set; }
         public string  Title { get; set; }
         public double Price { get; set; }
-        public List<Categories> Categories { get; set; }
+        public string image { get; set; }
+        public string Categories { get; set; }
     }
 }

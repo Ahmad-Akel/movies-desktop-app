@@ -673,6 +673,9 @@
     <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Views\ControlPanel.xbf">
       <PackagePath>Views\ControlPanel.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Views\Favorite.xbf">
+      <PackagePath>Views\Favorite.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Views\LoginPage.xbf">
       <PackagePath>Views\LoginPage.xbf</PackagePath>
     </AppxPackagedFile>
@@ -682,8 +685,20 @@
     <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Views\Movies.xbf">
+      <PackagePath>Views\Movies.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Views\MoviesDataGrid.xbf">
       <PackagePath>Views\MoviesDataGrid.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Views\MyAccount.xbf">
+      <PackagePath>Views\MyAccount.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Views\MyCard.xbf">
+      <PackagePath>Views\MyCard.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Views\OwnedMovies.xbf">
+      <PackagePath>Views\OwnedMovies.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Views\RegisterPage.xbf">
       <PackagePath>Views\RegisterPage.xbf</PackagePath>

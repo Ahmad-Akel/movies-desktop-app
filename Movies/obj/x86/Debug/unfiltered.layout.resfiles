@@ -17,10 +17,15 @@ App.xbf
 MainPage.xbf
 Movies.xr.xml
 Views\ControlPanel.xbf
+Views\Favorite.xbf
 Views\LoginPage.xbf
 Views\Main.xbf
 Views\MainPage.xbf
+Views\Movies.xbf
 Views\MoviesDataGrid.xbf
+Views\MyAccount.xbf
+Views\MyCard.xbf
+Views\OwnedMovies.xbf
 Views\RegisterPage.xbf
 Views\UserDataGrid.xbf
 Properties\Default.rd.xml

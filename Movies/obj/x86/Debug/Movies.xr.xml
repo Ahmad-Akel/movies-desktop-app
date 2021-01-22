@@ -15,8 +15,13 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Background" />
       <RootProperty Name="Children" />
+      <RootProperty Name="RowDefinitions" />
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="Margin" />
+      <RootMethod Name="GetRowSpan" />
+      <RootMethod Name="SetRowSpan" />
+      <RootMethod Name="GetRow" />
+      <RootMethod Name="SetRow" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
@@ -46,6 +51,8 @@
       <RootProperty Name="TextWrapping" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="FontSize" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="FontWeight" />
       <RootProperty Name="Height" />
       <RootEvent Name="SelectionChanged" />
     </RootType>
@@ -65,6 +72,7 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
+      <RootProperty Name="Foreground" />
       <RootProperty Name="Style" />
       <RootProperty Name="Background" />
       <RootProperty Name="RenderTransformOrigin" />
@@ -72,6 +80,22 @@
     </RootType>
     <RootType FullName="MoviesDataLayer.UWP.MainPage" />
     <RootType FullName="Movies.Views.ControlPanel" />
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.GridView">
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="IsItemClickEnabled" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="ItemTemplate" />
+      <RootEvent Name="ItemClick" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Source" />
+    </RootType>
+    <RootType FullName="Movies.Views.Favorite" />
     <RootType FullName="Windows.UI.Xaml.Controls.HyperlinkButton">
       <RootProperty Name="Content" />
       <RootProperty Name="Margin" />
@@ -94,18 +118,17 @@
     <RootType FullName="Windows.UI.Xaml.Controls.NavigationView">
       <RootProperty Name="MenuItems" />
       <RootProperty Name="Content" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.NavigationViewItem">
-      <RootProperty Name="Content" />
-      <RootProperty Name="Tag" />
-      <RootProperty Name="Icon" />
+      <RootEvent Name="Loaded" />
+      <RootEvent Name="SelectionChanged" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.NavigationViewItemSeparator" />
     <RootType FullName="Windows.UI.Xaml.Controls.NavigationViewItemHeader">
       <RootProperty Name="Content" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.FontIcon">
-      <RootProperty Name="Glyph" />
+    <RootType FullName="Windows.UI.Xaml.Controls.NavigationViewItem">
+      <RootProperty Name="Icon" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="Tag" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Frame">
       <RootProperty Name="Margin" />
@@ -115,6 +138,7 @@
     <RootType FullName="Windows.UI.Xaml.Media.Animation.NavigationThemeTransition" />
     <RootType FullName="Movies.Views.Main" />
     <RootType FullName="Movies.Views.MainPage" />
+    <RootType FullName="Movies.Views.Movies" />
     <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGrid">
       <RootProperty Name="Margin" />
       <RootProperty Name="AutoGenerateColumns" />
@@ -139,6 +163,9 @@
       <RootProperty Name="Foreground" />
     </RootType>
     <RootType FullName="Movies.Views.MoviesDataGrid" />
+    <RootType FullName="Movies.Views.MyAccount" />
+    <RootType FullName="Movies.Views.MyCard" />
+    <RootType FullName="Movies.Views.OwnedMovies" />
     <RootType FullName="Windows.UI.Xaml.Controls.Primitives.Popup">
       <RootProperty Name="Child" />
     </RootType>

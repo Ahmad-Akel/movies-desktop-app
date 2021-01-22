@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="Movies.Views.LoginPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Movies.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid RenderTransformOrigin="0.5,0.507">
+
+
+        <Button x:ConnectionId='2' Style="{StaticResource AccentButtonStyle}" Background="#3B3DBF" Content="Login" Width="200"  Height="60" Margin="426,505,0,0"                      VerticalAlignment="Top"  />
+        <!--<TextBox Name="Login_Password_TextBox" Header="Password" PlaceholderText="Enter your password"  FontSize="23px" Margin="575,369,599,637"  />-->
+        <!--<TextBox Name="Login_username_TextBox" Header="Username" PlaceholderText="Enter your name" FontSize="23px" Margin="575,288,599,718" />-->
+        <HyperlinkButton x:ConnectionId='3' Content="register to create new account"
+                                              Margin="229,641,0,0" VerticalAlignment="Top" Height="49" Width="595"    />
+        <TextBox x:ConnectionId='4' Name="Login_username_TextBox" HorizontalAlignment="Left" Margin="345,305,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="400px" Height="40px"/>
+        <TextBlock  HorizontalAlignment="Left" Margin="427,145,0,0" Text="Login Page" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40px"/>
+        <PasswordBox x:ConnectionId='5' Name="Login_Password_TextBox" HorizontalAlignment="Left" Margin="345,409,0,0" VerticalAlignment="Top" Width="400px" Height="40px"/>
+        <TextBlock HorizontalAlignment="Left" Margin="345,281,0,0" Text="Username" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="345,385,0,0" Text="Password" TextWrapping="Wrap" VerticalAlignment="Top"/>
+
+    </Grid>
+
+</Page>
+
