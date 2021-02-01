@@ -1,0 +1,3 @@
+Before Start the Application Please Move the MoviesApp.db to this Path 
+
+C:\Users\{Your user Name}\AppData\Local\Packages\22f370de-21f4-4075-926f-69b13aa2f6a7_damzpawhsp48w\LocalState

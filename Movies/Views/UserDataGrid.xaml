@@ -10,22 +10,18 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
     <Grid Margin="0,10,0,0">
         <controls:DataGrid x:Name="dataGrid1" Margin="12,10,12,10"
-    AutoGenerateColumns="False"
+    AutoGenerateColumns="True" ItemsSource="{x:Bind UsersList , Mode=OneWay}"  IsReadOnly="True" SelectionMode="Extended" SelectionChanged="dataGrid1_SelectionChanged"
    >
             <controls:DataGrid.Columns>
-                <controls:DataGridTextColumn 
+                <!--<controls:DataGridTextColumn 
             Header="ID" 
             Width="SizeToHeader"
-           
+            
             FontSize="20" />
                 <controls:DataGridTextColumn 
             Header="User Name" 
             Width="SizeToHeader"
-           
-            FontSize="20" />
-                <controls:DataGridTextColumn 
-            Header="Email" 
-            Width="SizeToHeader"
+            
            
             FontSize="20" />
                 <controls:DataGridTextColumn 
@@ -49,16 +45,6 @@
              
             FontSize="20" />
                 <controls:DataGridTextColumn 
-            Header="Favorites" 
-            Width="SizeToHeader"
-             
-            FontSize="20" />
-                <controls:DataGridTextColumn 
-            Header="OwnedMovies" 
-            Width="SizeToHeader"
-             
-            FontSize="20" />
-                <controls:DataGridTextColumn 
             Header="Subsecribtion"
             Width="SizeToHeader"
            >
@@ -76,20 +62,20 @@
                 <controls:DataGridCheckBoxColumn 
             Header="New?" 
             Width="40"
-            />
+            />-->
             </controls:DataGrid.Columns>
         </controls:DataGrid>
-        <TextBlock HorizontalAlignment="Left" Margin="12,536,0,0" Text="User Name:" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,584,0,0" Text="Password:" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="12,634,0,0" Text="ID:" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="12,536,0,0" Text="ID:" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,584,0,0" Text="Name:" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="12,634,0,0" Text="Role:" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="12,685,0,0" Text="Password:" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Margin="197,536,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="203"/>
-        <TextBox HorizontalAlignment="Left" Margin="197,584,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="203"/>
-        <TextBox HorizontalAlignment="Left" Margin="197,634,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="203"/>
-        <TextBox HorizontalAlignment="Left" Margin="197,684,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="203"/>
-        <Button Content="Add" Margin="557,561,0,0" VerticalAlignment="Top" Width="100px"/>
-        <Button Content="Delete" Margin="557,611,0,0" VerticalAlignment="Top" Width="100px"/>
-        <Button Content="Update" Margin="557,662,0,0" VerticalAlignment="Top" Width="100px"/>
+        <TextBox Name="IdTextBox" IsEnabled="False" HorizontalAlignment="Left" Margin="197,536,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="203"/>
+        <TextBox Name="UserNameTextBox" HorizontalAlignment="Left" Margin="197,584,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="203"/>
+        <TextBox Name="RoleTextBox" PlaceholderText="USER OR ADMIN" HorizontalAlignment="Left" Margin="197,634,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="203"/>
+        <TextBox Name="PasswordTextBox" HorizontalAlignment="Left" Margin="197,684,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="203"/>
+        <Button Name="addUser" Content="Add" Margin="557,561,0,0" VerticalAlignment="Top" Width="100px" Click="addUser_Click"/>
+        <Button Name="deleteUser" Content="Delete" Margin="557,611,0,0" VerticalAlignment="Top" Width="100px" Click="deleteUser_Click" />
+        <Button Name="editUser" Content="Update" Margin="557,662,0,0" VerticalAlignment="Top" Width="100px" Click="editUser_Click" />
         <HyperlinkButton Content="Back to Control Panel" Margin="760,694,0,0" VerticalAlignment="Top" Click="HyperlinkButton_Click"/>
     </Grid>
 </Page>

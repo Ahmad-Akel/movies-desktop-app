@@ -34,7 +34,11 @@ namespace Movies.Views
         {
             this.Frame.Navigate(typeof(MoviesDataGrid));
         }
-        
-        
+        private void Logout_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(LoginPage));
+        }
+
+
     }
 }

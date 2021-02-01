@@ -17,7 +17,8 @@ namespace MoviesDataLayer.UWP.Models
         public int MovieId { get; set; }
         public string  Title { get; set; }
         public double Price { get; set; }
-        public string image { get; set; }
-        public string Categories { get; set; }
+        public string Image { get; set; }
+        public int? CatId { get; set; }
+        public Categories Category { get; set; }
     }
 }

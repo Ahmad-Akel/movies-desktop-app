@@ -21,13 +21,9 @@ namespace MoviesDataLayer.UWP.Migrations
                     b.Property<int>("CatId")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<int?>("MovieId");
-
                     b.Property<string>("Name");
 
                     b.HasKey("CatId");
-
-                    b.HasIndex("MovieId");
 
                     b.ToTable("Categories");
                 });
@@ -37,41 +33,19 @@ namespace MoviesDataLayer.UWP.Migrations
                     b.Property<int>("MovieId")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<int?>("MoviesCardCardId");
+                    b.Property<int?>("CatId");
+
+                    b.Property<string>("Image");
 
                     b.Property<double>("Price");
 
                     b.Property<string>("Title");
 
-                    b.Property<int?>("UserId");
-
-                    b.Property<int?>("UserId1");
-
                     b.HasKey("MovieId");
 
-                    b.HasIndex("MoviesCardCardId");
-
-                    b.HasIndex("UserId");
-
-                    b.HasIndex("UserId1");
+                    b.HasIndex("CatId");
 
                     b.ToTable("Movies");
-                });
-
-            modelBuilder.Entity("MoviesDataLayer.UWP.Models.MoviesCard", b =>
-                {
-                    b.Property<int>("CardId")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<double>("TotalPrice");
-
-                    b.Property<int>("UserId");
-
-                    b.HasKey("CardId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("MoviesCard");
                 });
 
             modelBuilder.Entity("MoviesDataLayer.UWP.Models.Permissions", b =>
@@ -105,9 +79,7 @@ namespace MoviesDataLayer.UWP.Migrations
                     b.Property<int>("UserId")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("Email");
-
-                    b.Property<DateTime>("EndDate");
+                    b.Property<DateTime?>("EndDate");
 
                     b.Property<bool>("Is_Sub");
 
@@ -115,7 +87,7 @@ namespace MoviesDataLayer.UWP.Migrations
 
                     b.Property<int?>("PermessionId");
 
-                    b.Property<DateTime>("StartDate");
+                    b.Property<DateTime?>("StartDate");
 
                     b.Property<int?>("SubId");
 
@@ -130,34 +102,47 @@ namespace MoviesDataLayer.UWP.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("MoviesDataLayer.UWP.Models.Categories", b =>
+            modelBuilder.Entity("MoviesDataLayer.UWP.Models.UserFavMovies", b =>
                 {
-                    b.HasOne("MoviesDataLayer.UWP.Models.Movie")
-                        .WithMany("Categories")
-                        .HasForeignKey("MovieId");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<int>("MovieId");
+
+                    b.Property<int>("UserId");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("MovieId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Favorites");
+                });
+
+            modelBuilder.Entity("MoviesDataLayer.UWP.Models.UserOwnedMovies", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<int>("MovieId");
+
+                    b.Property<int>("UserId");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("MovieId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("OwnedMovies");
                 });
 
             modelBuilder.Entity("MoviesDataLayer.UWP.Models.Movie", b =>
                 {
-                    b.HasOne("MoviesDataLayer.UWP.Models.MoviesCard")
-                        .WithMany("Movies")
-                        .HasForeignKey("MoviesCardCardId");
-
-                    b.HasOne("MoviesDataLayer.UWP.Models.User")
-                        .WithMany("Favorites")
-                        .HasForeignKey("UserId");
-
-                    b.HasOne("MoviesDataLayer.UWP.Models.User")
-                        .WithMany("OwnedMovies")
-                        .HasForeignKey("UserId1");
-                });
-
-            modelBuilder.Entity("MoviesDataLayer.UWP.Models.MoviesCard", b =>
-                {
-                    b.HasOne("MoviesDataLayer.UWP.Models.User", "User")
+                    b.HasOne("MoviesDataLayer.UWP.Models.Categories", "Category")
                         .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade);
+                        .HasForeignKey("CatId");
                 });
 
             modelBuilder.Entity("MoviesDataLayer.UWP.Models.User", b =>
@@ -169,6 +154,32 @@ namespace MoviesDataLayer.UWP.Migrations
                     b.HasOne("MoviesDataLayer.UWP.Models.Subsecribe", "Subsecribtion")
                         .WithMany()
                         .HasForeignKey("SubId");
+                });
+
+            modelBuilder.Entity("MoviesDataLayer.UWP.Models.UserFavMovies", b =>
+                {
+                    b.HasOne("MoviesDataLayer.UWP.Models.Movie", "Movie")
+                        .WithMany()
+                        .HasForeignKey("MovieId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.HasOne("MoviesDataLayer.UWP.Models.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("MoviesDataLayer.UWP.Models.UserOwnedMovies", b =>
+                {
+                    b.HasOne("MoviesDataLayer.UWP.Models.Movie", "Movie")
+                        .WithMany()
+                        .HasForeignKey("MovieId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.HasOne("MoviesDataLayer.UWP.Models.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618
         }

@@ -15,10 +15,10 @@
         </Grid.RowDefinitions>
         <GridView x:ConnectionId='2'                                   IsItemClickEnabled="True"                                Margin="0,50,0,90" Grid.RowSpan="2" >
             <GridView.ItemTemplate>
-                <DataTemplate                        >
-                    <StackPanel x:ConnectionId='7' >
-                        <Image x:ConnectionId='8'  Width="200"                        />
-                        <TextBlock x:ConnectionId='9' FontSize="14"                       />
+                <DataTemplate                           >
+                    <StackPanel x:ConnectionId='9' >
+                        <Image x:ConnectionId='10'  Width="200"                        />
+                        <TextBlock x:ConnectionId='11' FontSize="13"                       />
                     </StackPanel>
 
                 </DataTemplate>
@@ -26,9 +26,12 @@
         </GridView>
 
         <TextBlock x:ConnectionId='3' Grid.Row="1"  Name="InfoTextBlock" FontSize="15" Foreground="Black"  FontWeight="bold"  Margin="0,20,0,0"/>
-        <Button x:ConnectionId='4' x:Name="addtocard" Content="Add To Card" Foreground="Wheat" Margin="490,14,0,0" Grid.Row="1" VerticalAlignment="Top" Width="117"                        />
-        <Button x:ConnectionId='5' x:Name="addtofavorite" Content="Add To Favorite" Foreground="Wheat" Margin="490,52,0,0" Grid.Row="1" VerticalAlignment="Top"                            />
-        <TextBlock HorizontalAlignment="Left" Margin="-3,-1,0,0" Text="Movies" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="35" Height="40"/>
+
+        <Button x:ConnectionId='4' x:Name="addtocard" Content="Add To Card" Foreground="#3B3DBF" Margin="490,14,0,0" Grid.Row="1" VerticalAlignment="Top" Width="117"                         Visibility="Collapsed"/>
+        <Button x:ConnectionId='5' x:Name="addtofavorite" Content="Add To Favorite" Foreground="#3B3DBF" Margin="490,52,0,0" Grid.Row="1" VerticalAlignment="Top"                             Visibility="Collapsed"/>
+        <TextBlock HorizontalAlignment="Left" Margin="-3,-1,0,0" Text="Movies" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="35" Height="45"/>
+        <TextBlock x:ConnectionId='6' Name="addtoftextbox" HorizontalAlignment="Left" Margin="270,59,0,0" Grid.Row="1"  Foreground="Black" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='7' Name="addtoctextbox" HorizontalAlignment="Left" Margin="270,21,0,0" Grid.Row="1"  TextWrapping="Wrap" VerticalAlignment="Top"/>
     </Grid>
 </Page>
 

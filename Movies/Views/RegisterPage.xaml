@@ -13,11 +13,11 @@
         <HyperlinkButton Content="Back to Login" 
                  Click="HyperlinkButton_Click" RenderTransformOrigin="0.498,6.594" Height="70"  Margin="140,650,0,0" VerticalAlignment="Top" />
         <TextBlock HorizontalAlignment="Left"  Text="Username" TextWrapping="Wrap" Width="100px" Height="30px" Margin="227,231,0,459" />
-        <TextBox x:Name="Reg_Pass_textbox" HorizontalAlignment="Left" Margin="228,343,0,337" Text="" TextWrapping="Wrap" Width="500px" Height="40px"/>
+        <TextBox x:Name="Reg_Pass_textbox" HorizontalAlignment="Left" Margin="228,343,0,337" Text="" TextWrapping="Wrap" Width="500px" Height="40px" TabIndex="1"/>
         <TextBlock HorizontalAlignment="Left" Margin="227,320,0,370" Text="Password" TextWrapping="Wrap" Width="100px" Height="30px" SelectionChanged="TextBlock_SelectionChanged"/>
-        <TextBox x:Name="Reg_username_textbox" HorizontalAlignment="Left" Margin="227,250,0,430" Text="" TextWrapping="Wrap" Width="500px" Height="40px"/>
+        <TextBox x:Name="Reg_username_textbox" HorizontalAlignment="Left" Margin="227,250,0,430" Text="" TextWrapping="Wrap" Width="500px" Height="40px" TabIndex="0"/>
         <TextBlock HorizontalAlignment="Left" Margin="232,416,0,274" Text="Confirm password" TextWrapping="Wrap" Width="150px" Height="30px"/>
-        <TextBox x:Name="Reg_CoPass_textbox" HorizontalAlignment="Left" Margin="228,440,0,240" Text="" TextWrapping="Wrap" Width="500px" Height="40px"/>
+        <TextBox x:Name="Reg_CoPass_textbox" HorizontalAlignment="Left" Margin="228,440,0,240" Text="" TextWrapping="Wrap" Width="500px" Height="40px" TabIndex="2" />
         <Button Style="{StaticResource AccentButtonStyle}" Content="Register" Margin="406,620,0,0"  Background="#3B3DBF"  Width="150px"  Height="50px" RenderTransformOrigin="0.552,-0.467" Click="Button_Click" />
         <Popup>
             <Grid Background="#FFE5E5E5"/>

@@ -15,9 +15,9 @@
         </Grid.RowDefinitions>
         <GridView ItemsSource="{x:Bind MoviesList}" IsItemClickEnabled="True" ItemClick="GridView_ItemClick" Margin="0,50,0,90" Grid.RowSpan="2" >
             <GridView.ItemTemplate>
-                <DataTemplate x:DataType="data:Movie">
+                <DataTemplate x:DataType="data:MovieDto">
                     <StackPanel >
-                        <Image  Width="200" Source="{x:Bind image}"/>
+                        <Image  Width="200" Source="{x:Bind Image}"/>
                         <TextBlock FontSize="13" Text="{x:Bind Title}" />
                     </StackPanel>
 
@@ -26,8 +26,11 @@
         </GridView>
 
         <TextBlock Grid.Row="1"  Name="InfoTextBlock" FontSize="15" Foreground="Black"  FontWeight="bold"  Margin="0,20,0,0"/>
-        <Button x:Name="addtocard" Content="Add To Card" Foreground="Wheat" Margin="490,14,0,0" Grid.Row="1" VerticalAlignment="Top" Width="117" Click="AddToCard_Click"/>
-        <Button x:Name="addtofavorite" Content="Add To Favorite" Foreground="Wheat" Margin="490,52,0,0" Grid.Row="1" VerticalAlignment="Top" Click="AddToFavorite_Click"/>
-        <TextBlock HorizontalAlignment="Left" Margin="-3,-1,0,0" Text="Movies" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="35" Height="40"/>
+
+        <Button x:Name="addtocard" Content="Add To Card" Foreground="#3B3DBF" Margin="490,14,0,0" Grid.Row="1" VerticalAlignment="Top" Width="117" Click="AddToCard_Click" Visibility="Collapsed"/>
+        <Button x:Name="addtofavorite" Content="Add To Favorite" Foreground="#3B3DBF" Margin="490,52,0,0" Grid.Row="1" VerticalAlignment="Top" Click="AddToFavorite_Click" Visibility="Collapsed"/>
+        <TextBlock HorizontalAlignment="Left" Margin="-3,-1,0,0" Text="Movies" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="35" Height="45"/>
+        <TextBlock Name="addtoftextbox" HorizontalAlignment="Left" Margin="270,59,0,0" Grid.Row="1"  Foreground="Black" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock Name="addtoctextbox" HorizontalAlignment="Left" Margin="270,21,0,0" Grid.Row="1"  TextWrapping="Wrap" VerticalAlignment="Top"/>
     </Grid>
 </Page>

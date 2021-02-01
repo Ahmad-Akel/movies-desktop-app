@@ -11,57 +11,25 @@
 
     <Grid Margin="0,10,0,0">
         <controls:DataGrid x:Name="dataGrid1" Margin="12,10,12,10"
-    AutoGenerateColumns="False"
+    AutoGenerateColumns="True" ItemsSource="{x:Bind MoviesList , Mode=OneWay}"  IsReadOnly="True" SelectionMode="Extended" SelectionChanged="dataGrid1_SelectionChanged"
    >
             <controls:DataGrid.Columns>
-                <controls:DataGridTextColumn 
-            Header="ID" 
-            Width="SizeToHeader"
-           
-            FontSize="20" />
-                <controls:DataGridTextColumn 
-            Header="Title" 
-            Width="SizeToHeader"
-           
-            FontSize="20" />
-                <controls:DataGridTextColumn 
-            Header="Price" 
-            Width="SizeToHeader"
-           
-            FontSize="20" />
-
-                <controls:DataGridTextColumn 
-            Header="Categories"
-            Width="SizeToHeader"
-           >
-                    <controls:DataGridTextColumn.ElementStyle>
-                        <Style TargetType="TextBlock">
-                            <Setter Property="TextWrapping" Value="Wrap"/>
-                        </Style>
-                    </controls:DataGridTextColumn.ElementStyle>
-                    <controls:DataGridTextColumn.EditingElementStyle>
-                        <Style TargetType="TextBox">
-                            <Setter Property="Foreground" Value="Blue"/>
-                        </Style>
-                    </controls:DataGridTextColumn.EditingElementStyle>
-                </controls:DataGridTextColumn>
-                <controls:DataGridCheckBoxColumn 
-            Header="New?" 
-            Width="40"
-            />
+                
             </controls:DataGrid.Columns>
         </controls:DataGrid>
         <TextBlock HorizontalAlignment="Left" Margin="12,536,0,0" Text="Movie Name:" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,584,0,0" Text="Categorie:" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="12,634,0,0" Text="ID:" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="12,685,0,0" Text="Price:" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Margin="197,536,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="203"/>
-        <TextBox HorizontalAlignment="Left" Margin="197,584,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="203"/>
-        <TextBox HorizontalAlignment="Left" Margin="197,634,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="203"/>
-        <TextBox HorizontalAlignment="Left" Margin="197,684,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="203"/>
-        <Button Content="Add" Margin="557,561,0,0" VerticalAlignment="Top" Width="100px"/>
-        <Button Content="Delete" Margin="557,611,0,0" VerticalAlignment="Top" Width="100px"/>
-        <Button Content="Update" Margin="557,662,0,0" VerticalAlignment="Top" Width="100px"/>
+        <TextBox Name="NameTextBox" HorizontalAlignment="Left" Margin="197,536,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="203"/>
+        <!--<TextBox Name="CategoryTextBox" HorizontalAlignment="Left" Margin="197,584,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="203"/>-->
+        <ComboBox Name="CategoryComboBox" HorizontalAlignment="Left" Margin="197,584,0,0"  VerticalAlignment="Top" Width="203" ItemsSource="{x:Bind CategoriesList , Mode=OneWay}" DisplayMemberPath= "Name" SelectionChanged="CategoryComboBox_SelectionChanged" />
+
+        <TextBox Name="IdTextBox" IsEnabled="False" HorizontalAlignment="Left" Margin="197,634,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="203"/>
+        <TextBox Name="PriceTextBox" HorizontalAlignment="Left" Margin="197,684,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="203"/>
+        <Button Name="AddBtn" Content="Add" Margin="557,561,0,0" VerticalAlignment="Top" Width="100px" Click="AddBtn_Click"/>
+        <Button Name="DeteleBtn" Content="Delete" Margin="557,611,0,0" VerticalAlignment="Top" Width="100px" Click="DeteleBtn_Click"/>
+        <Button Name="UpdateBtn" Content="Update" Margin="557,662,0,0" VerticalAlignment="Top" Width="100px" Click="UpdateBtn_Click"/>
         <HyperlinkButton Content="Back to Control Panel" Margin="760,694,0,0" VerticalAlignment="Top" Click="HyperlinkButton_Click_Movie"/>
     </Grid>
 </Page>

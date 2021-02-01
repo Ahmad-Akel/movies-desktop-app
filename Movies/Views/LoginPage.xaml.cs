@@ -1,4 +1,6 @@
-﻿using Movies.ViewModel;
+﻿using Movies.Classes;
+using Movies.ViewModel;
+using MoviesDataLayer.UWP.Models;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -28,6 +30,8 @@ namespace Movies.Views
         public LoginPage()
         {
            this.InitializeComponent();
+            //   userViewModel.InitPermissions();
+           // userViewModel.CrateUser(new User() { UserName = "Ahmad", Password = "123", Permissions = new Permissions() { Role = "ADMIN" } });
         }
 
         private void HyperlinkButton_Click(object sender, RoutedEventArgs e)
@@ -39,19 +43,35 @@ namespace Movies.Views
         {
 
         }
-
+        /*
+         * Login  Btn 
+         */
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
             MessageDialog message;
-            if(!string.IsNullOrEmpty (Login_username_TextBox.Text) && !string.IsNullOrEmpty (Login_Password_TextBox.ToString()))
+            if(!string.IsNullOrEmpty (Login_username_TextBox.Text) && !string.IsNullOrEmpty (Login_Password_TextBox.Password.ToString()))
             {
-                bool LoggedIn = userViewModel.UserLogin(Login_username_TextBox.Text, Login_Password_TextBox.ToString());
+                var loggedInUser = userViewModel.UserLogin(Login_username_TextBox.Text, Login_Password_TextBox.Password.ToString());
+                bool LoggedIn = loggedInUser !=null;
                 if(LoggedIn)
                 {
                     message = new MessageDialog("Welcome  " + Login_username_TextBox.Text, "Information");
-                 await   message.ShowAsync();
-                    //this.Frame.Navigate(typeof(MainPage));
-                   
+                    if(loggedInUser != null)
+                    {
+                        switch(loggedInUser.PermessionId)
+                        {
+                            case 1:
+                                this.Frame.Navigate(typeof(ControlPanel));
+                                break;
+                            default:
+                                 StaticFields.CurrentUser = loggedInUser;
+                                 this.Frame.Navigate(typeof(Main));
+                               
+                                break;
+                        }
+                    }
+                    await   message.ShowAsync();
+                    
                 }
                 else
                 {
@@ -63,7 +83,7 @@ namespace Movies.Views
                 message = new MessageDialog("Invaild Input ");
                 await message.ShowAsync();
             }
-            this.Frame.Navigate(typeof(Main));
+            
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ahmad\\Desktop\\School\\IPB\\Application-Development\\wd-final-project-group-17\\MoviesDataLayer\\MoviesDataLayer.csproj": {}
+    "C:\\Users\\Ahmad\\Desktop\\MyProject\\wd-final-project-group-17\\MoviesDataLayer\\MoviesDataLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ahmad\\Desktop\\School\\IPB\\Application-Development\\wd-final-project-group-17\\MoviesDataLayer\\MoviesDataLayer.csproj": {
+    "C:\\Users\\Ahmad\\Desktop\\MyProject\\wd-final-project-group-17\\MoviesDataLayer\\MoviesDataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ahmad\\Desktop\\School\\IPB\\Application-Development\\wd-final-project-group-17\\MoviesDataLayer\\MoviesDataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Ahmad\\Desktop\\MyProject\\wd-final-project-group-17\\MoviesDataLayer\\MoviesDataLayer.csproj",
         "projectName": "MoviesDataLayer",
-        "projectPath": "C:\\Users\\Ahmad\\Desktop\\School\\IPB\\Application-Development\\wd-final-project-group-17\\MoviesDataLayer\\MoviesDataLayer.csproj",
+        "projectPath": "C:\\Users\\Ahmad\\Desktop\\MyProject\\wd-final-project-group-17\\MoviesDataLayer\\MoviesDataLayer.csproj",
         "packagesPath": "C:\\Users\\Ahmad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ahmad\\Desktop\\School\\IPB\\Application-Development\\wd-final-project-group-17\\MoviesDataLayer\\obj\\",
+        "outputPath": "C:\\Users\\Ahmad\\Desktop\\MyProject\\wd-final-project-group-17\\MoviesDataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [

@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="Movies.Views.Settings"
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:data="using:MoviesDataLayer.UWP.Models"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:Windows10version1809="http://schemas.microsoft.com/winfx/2006/xaml/presentation?IsApiContractPresent(Windows.Foundation.UniversalApiContract, 7)"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="-3,-1,0,0" Text="Settings" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="35" Height="45"/>
+
+        <TextBlock   Text="User Name:" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="15" Margin="0,150,0,0" />
+        
+        <TextBlock   Text="Subscription:" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Top"  FontSize="15" Margin="0,390,0,0"/>
+        <TextBlock   Text="Password:" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="15" Margin="0,230,0,0"/>
+        <TextBlock   Text="Favorites:" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="15" Margin="0,470,0,0"/>
+        <TextBlock   Text="Owned Moies:" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="15" Margin="0,550,0,0"/>
+        
+
+        <TextBlock Name="NameInfo" FontSize="15" Foreground="Black" Text="" HorizontalAlignment="Center" VerticalAlignment="Top"  Margin="0,150,0,0"/>
+        <TextBlock Name="PassInfo" FontSize="15" Foreground="Black" Text="" HorizontalAlignment="Center" VerticalAlignment="Top"  Margin="0,230,0,0"/>
+        <TextBlock Name="SubInfo" FontSize="15" Foreground="Black" Text="" HorizontalAlignment="Center" VerticalAlignment="Top"  Margin="0,390,0,0"/>
+        <HyperlinkButton Content="Edit Your Favorite" HorizontalAlignment="Center" VerticalAlignment="Top"  Margin="0,470,0,0" Click="Favorite_Click"/>
+        
+        <HyperlinkButton Content="View Owned Movies" HorizontalAlignment="Center" VerticalAlignment="Top"  Margin="0,550,0,0" Click="OwnedMovies_Click"/>
+
+
+
+
+
+
+
+
+    </Grid>
+</Page>

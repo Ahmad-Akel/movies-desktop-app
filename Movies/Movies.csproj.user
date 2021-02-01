@@ -4,4 +4,14 @@
     <DeviceId>30f105c9-681e-420b-a277-7c086ead8a4e</DeviceId>
     <UseEmulator>true</UseEmulator>
   </PropertyGroup>
+  <PropertyGroup>
+    <Source>C:\Users\Mahmoud\Downloads\multimedia.png</Source>
+    <SmallTileSource>C:\Users\Mahmoud\Downloads\multimedia.png</SmallTileSource>
+    <MediumTileSource>C:\Users\Mahmoud\Downloads\multimedia.png</MediumTileSource>
+    <WideTileSource>C:\Users\Mahmoud\Downloads\multimedia.png</WideTileSource>
+    <LargeTileSource>C:\Users\Mahmoud\Downloads\multimedia.png</LargeTileSource>
+    <AppIconSource>C:\Users\Mahmoud\Downloads\multimedia.png</AppIconSource>
+    <SplashScreenSource>C:\Users\Mahmoud\Downloads\multimedia.png</SplashScreenSource>
+    <PackageLogoSource>C:\Users\Mahmoud\Downloads\multimedia.png</PackageLogoSource>
+  </PropertyGroup>
 </Project>

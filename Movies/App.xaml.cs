@@ -37,7 +37,7 @@ namespace Movies
 
             using (var db = new MoviesContext())
             {
-                db.Database.Migrate();
+                db.Database.EnsureCreated();
             }
         }
 

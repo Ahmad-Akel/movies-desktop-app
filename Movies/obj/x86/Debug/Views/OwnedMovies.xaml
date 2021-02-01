@@ -1,16 +1,32 @@
-﻿<Page
+﻿<Page x:ConnectionId='1'
     x:Class="Movies.Views.OwnedMovies"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:Movies.Views"
+   xmlns:data="using:MoviesDataLayer.UWP.Models"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock HorizontalAlignment="Center" Text="Owned Movies" TextWrapping="Wrap" VerticalAlignment="Center" Height="124" Width="554" FontSize="80px"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="90"/>
+        </Grid.RowDefinitions>
+        <GridView x:ConnectionId='2'                                        IsItemClickEnabled="True"                                Margin="0,50,0,90" Grid.RowSpan="2" >
+            <GridView.ItemTemplate>
+                <DataTemplate                           >
+                    <StackPanel x:ConnectionId='5' >
+                        <Image Width="200" Source="/Assets/Joker.jpg" />
 
+                        <TextBlock x:ConnectionId='6' FontSize="13"                       />
+                    </StackPanel>
+
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>
+        <TextBlock HorizontalAlignment="Left" Margin="-3,-1,0,0" Text="Owned Movies" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="35" Height="40"/>
+        <TextBlock x:ConnectionId='3' Grid.Row="1"  Name="InfoTextBlock" FontSize="15" Foreground="Black"  FontWeight="bold"  Margin="0,20,0,0"/>
     </Grid>
 </Page>
 

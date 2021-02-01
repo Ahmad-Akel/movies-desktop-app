@@ -1,1 +1,1 @@
-C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\Movies.csproj;x86
+C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Movies.csproj;x86

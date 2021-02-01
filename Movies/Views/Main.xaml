@@ -21,8 +21,8 @@
                 <NavigationViewItem x:Uid="FavoriteNavItem" Icon="Favorite" Content="Favorites" Tag="favorites" />
                 <NavigationViewItem x:Uid="VideoNavItem" Icon="Video" Content="Owned Movies" Tag="ownedmovie"/>
                 <NavigationViewItem x:Uid="PlayNavItem" Icon="Play" Content="Movies" Tag="movies"/>
-                <NavigationViewItem x:Uid="AccountNavItem" Icon="Account" Content="My Account" Tag="myaccount" />
-                <NavigationViewItem x:Uid="CardNavItem" Icon="Calculator" Content="My Card" Tag="mycard" />
+                <NavigationViewItem x:Uid="PlayNavItem" Icon="Shop" Content="Subscription" Tag="subscription"/>
+                <NavigationViewItem x:Uid="CardNavItem" Icon="Calculator" Content="Shipping Card" Tag="mycard" />
                 <NavigationViewItem x:Uid="BackNavItem" Icon="Back" Content="Logout" Tag="logout"  />
             </NavigationView.MenuItems>
 

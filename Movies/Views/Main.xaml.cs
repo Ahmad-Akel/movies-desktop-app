@@ -1,10 +1,13 @@
-﻿using System;
+﻿using Movies.Classes;
+using MoviesDataLayer.UWP.Models;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -22,36 +25,50 @@ namespace Movies.Views
     /// </summary>
     public sealed partial class Main : Page
     {
-        public Main()
+        public  Main()
         {
             this.InitializeComponent();
         }
-
         private void NavigationView_Loaded(object sender,RoutedEventArgs e)
         {
             ContentFrame.Navigate(typeof(OwnedMovies));
         }
         private void NavigationView_SelectionChanged(NavigationView sender,NavigationViewSelectionChangedEventArgs args)
         {
-            NavigationViewItem item = args.SelectedItem as NavigationViewItem;
-            switch (item.Tag.ToString())
+            if (args.IsSettingsSelected)
             {
-                case "favorites":
-                    ContentFrame.Navigate(typeof(Favorite));
-                    break;
-                case "ownedmovie":
-                    ContentFrame.Navigate(typeof(OwnedMovies));
-                    break;
-                case "movies":
-                    ContentFrame.Navigate(typeof(Movies));
-                    break;
-                case "myaccount":
-                    ContentFrame.Navigate(typeof(MyAccount));
-                    break;
-                case "logout":
-                    this.Frame.Navigate(typeof(LoginPage));
-                    break;
+                ContentFrame.Navigate(typeof(Settings));
             }
+            else
+            {
+                NavigationViewItem item = args.SelectedItem as NavigationViewItem;
+                switch (item.Tag.ToString())
+                {
+                    case "favorites":
+                        ContentFrame.Navigate(typeof(Favorite));
+                        break;
+                    case "ownedmovie":
+                        ContentFrame.Navigate(typeof(OwnedMovies));
+                        break;
+                    case "movies":
+                        ContentFrame.Navigate(typeof(Movies));
+                        break;
+                    //case "myaccount":
+                    //    ContentFrame.Navigate(typeof(MyAccount));
+                    //    break;
+                    case "logout":
+                        StaticFields.CurrentUser = null;
+                        this.Frame.Navigate(typeof(LoginPage));
+                        break;
+                    case "mycard":
+                        ContentFrame.Navigate(typeof(MyCard));
+                        break;
+                    case "subscription":
+                        ContentFrame.Navigate(typeof(Subscription));
+                        break;
+                }
+            }
+            
         }
     }
 }

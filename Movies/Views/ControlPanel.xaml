@@ -12,5 +12,6 @@
         <TextBlock HorizontalAlignment="Left" Margin="355,15,0,0" Text="Control Panel" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30px"/>
         <Button Content="Movies" Margin="170,255,0,0" VerticalAlignment="Top" Width="125px" Height="75px" Click="Button_Click_Movies"/>
         <Button Content="Users" Margin="610,255,0,0" VerticalAlignment="Top" Width="125px" Height="75px" Click="Button_Click"/>
+        <HyperlinkButton Content="Logout" Margin="179,420,0,0" VerticalAlignment="Top" Click="Logout_Click"/>
     </Grid>
 </Page>

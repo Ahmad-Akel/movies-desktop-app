@@ -12,6 +12,7 @@
         <TextBlock HorizontalAlignment="Left" Margin="355,15,0,0" Text="Control Panel" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30px"/>
         <Button x:ConnectionId='2' Content="Movies" Margin="170,255,0,0" VerticalAlignment="Top" Width="125px" Height="75px"                            />
         <Button x:ConnectionId='3' Content="Users" Margin="610,255,0,0" VerticalAlignment="Top" Width="125px" Height="75px"                     />
+        <HyperlinkButton x:ConnectionId='4' Content="Logout" Margin="179,420,0,0" VerticalAlignment="Top"                     />
     </Grid>
 </Page>
 

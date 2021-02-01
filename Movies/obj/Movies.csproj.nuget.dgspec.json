@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ahmad\\Desktop\\School\\IPB\\Application-Development\\wd-final-project-group-17\\Movies\\Movies.csproj": {}
+    "C:\\Users\\Ahmad\\Desktop\\MyProject\\wd-final-project-group-17\\Movies\\Movies.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ahmad\\Desktop\\School\\IPB\\Application-Development\\wd-final-project-group-17\\MoviesDataLayer\\MoviesDataLayer.csproj": {
+    "C:\\Users\\Ahmad\\Desktop\\MyProject\\wd-final-project-group-17\\MoviesDataLayer\\MoviesDataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ahmad\\Desktop\\School\\IPB\\Application-Development\\wd-final-project-group-17\\MoviesDataLayer\\MoviesDataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Ahmad\\Desktop\\MyProject\\wd-final-project-group-17\\MoviesDataLayer\\MoviesDataLayer.csproj",
         "projectName": "MoviesDataLayer",
-        "projectPath": "C:\\Users\\Ahmad\\Desktop\\School\\IPB\\Application-Development\\wd-final-project-group-17\\MoviesDataLayer\\MoviesDataLayer.csproj",
+        "projectPath": "C:\\Users\\Ahmad\\Desktop\\MyProject\\wd-final-project-group-17\\MoviesDataLayer\\MoviesDataLayer.csproj",
         "packagesPath": "C:\\Users\\Ahmad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ahmad\\Desktop\\School\\IPB\\Application-Development\\wd-final-project-group-17\\MoviesDataLayer\\obj\\",
+        "outputPath": "C:\\Users\\Ahmad\\Desktop\\MyProject\\wd-final-project-group-17\\MoviesDataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
@@ -105,14 +105,14 @@
         }
       }
     },
-    "C:\\Users\\Ahmad\\Desktop\\School\\IPB\\Application-Development\\wd-final-project-group-17\\Movies\\Movies.csproj": {
+    "C:\\Users\\Ahmad\\Desktop\\MyProject\\wd-final-project-group-17\\Movies\\Movies.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ahmad\\Desktop\\School\\IPB\\Application-Development\\wd-final-project-group-17\\Movies\\Movies.csproj",
+        "projectUniqueName": "C:\\Users\\Ahmad\\Desktop\\MyProject\\wd-final-project-group-17\\Movies\\Movies.csproj",
         "projectName": "Movies",
-        "projectPath": "C:\\Users\\Ahmad\\Desktop\\School\\IPB\\Application-Development\\wd-final-project-group-17\\Movies\\Movies.csproj",
+        "projectPath": "C:\\Users\\Ahmad\\Desktop\\MyProject\\wd-final-project-group-17\\Movies\\Movies.csproj",
         "packagesPath": "C:\\Users\\Ahmad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ahmad\\Desktop\\School\\IPB\\Application-Development\\wd-final-project-group-17\\Movies\\obj\\",
+        "outputPath": "C:\\Users\\Ahmad\\Desktop\\MyProject\\wd-final-project-group-17\\Movies\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -132,8 +132,8 @@
         "frameworks": {
           "uap10.0.16299": {
             "projectReferences": {
-              "C:\\Users\\Ahmad\\Desktop\\School\\IPB\\Application-Development\\wd-final-project-group-17\\MoviesDataLayer\\MoviesDataLayer.csproj": {
-                "projectPath": "C:\\Users\\Ahmad\\Desktop\\School\\IPB\\Application-Development\\wd-final-project-group-17\\MoviesDataLayer\\MoviesDataLayer.csproj"
+              "C:\\Users\\Ahmad\\Desktop\\MyProject\\wd-final-project-group-17\\MoviesDataLayer\\MoviesDataLayer.csproj": {
+                "projectPath": "C:\\Users\\Ahmad\\Desktop\\MyProject\\wd-final-project-group-17\\MoviesDataLayer\\MoviesDataLayer.csproj"
               }
             }
           }
@@ -145,6 +145,10 @@
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
               "version": "[6.0.6, )"
+            },
+            "Microsoft.Toolkit.Uwp.UI.Controls": {
+              "target": "Package",
+              "version": "[6.1.1, )"
             },
             "Microsoft.Toolkit.Uwp.UI.Controls.DataGrid": {
               "target": "Package",

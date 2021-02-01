@@ -1,4 +1,5 @@
 ﻿using Movies.ViewModel;
+using MoviesDataLayer.UWP.Models;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -48,10 +49,11 @@ namespace Movies.Views
 
                 if(Reg_Pass_textbox.Text==Reg_CoPass_textbox.Text)
                 {
-                 bool userCreated =    userViewModel.CrateUser(Reg_username_textbox.Text,Reg_Pass_textbox.Text);
+                 bool userCreated =    userViewModel.CrateUser(new User() {UserName= Reg_username_textbox.Text, Password= Reg_Pass_textbox.Text ,Permissions=new Permissions() {Role= "USER" } });
                     if (userCreated)
                     {
                         message = new MessageDialog("User Created !");
+                        this.Frame.Navigate(typeof(LoginPage));
                     }
                     else
                     {

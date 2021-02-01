@@ -10,23 +10,29 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>22f370de-21f4-4075-926f-69b13aa2f6a7</PackageIdentityName>
     <PackageIdentityPublisher>CN=david</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Movies.exe">
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\bin\x86\Debug\Movies.exe">
       <PackagePath>entrypoint\Movies.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\.nuget\packages\colorcode.core\2.0.6\lib\netstandard1.4\ColorCode.Core.dll">
+      <PackagePath>ColorCode.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\.nuget\packages\colorcode.uwp\2.0.6\lib\uap10.0\ColorCode.UWP.dll">
+      <PackagePath>ColorCode.UWP.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ahmad\.nuget\packages\microsoft.data.sqlite.core\2.1.0\lib\netstandard2.0\Microsoft.Data.Sqlite.dll">
       <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
@@ -79,8 +85,35 @@
     <AppxPackagedFile Include="C:\Users\Ahmad\.nuget\packages\microsoft.extensions.primitives\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll">
       <PackagePath>Microsoft.Extensions.Primitives.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\.nuget\packages\microsoft.toolkit\6.1.1\lib\netstandard2.0\Microsoft.Toolkit.dll">
+      <PackagePath>Microsoft.Toolkit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\.nuget\packages\microsoft.toolkit.parsers\6.1.1\lib\netstandard2.0\Microsoft.Toolkit.Parsers.dll">
+      <PackagePath>Microsoft.Toolkit.Parsers.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\.nuget\packages\microsoft.toolkit.uwp\6.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\.nuget\packages\microsoft.toolkit.uwp.ui\6.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\.nuget\packages\microsoft.toolkit.uwp.ui.animations\6.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Animations.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Animations.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\.nuget\packages\microsoft.toolkit.uwp.ui.controls\6.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ahmad\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\6.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\.nuget\packages\newtonsoft.json\10.0.3\lib\netstandard1.3\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ahmad\.nuget\packages\remotion.linq\2.2.0\lib\portable-net45+win+wpa81+wp80\Remotion.Linq.dll">
       <PackagePath>Remotion.Linq.dll</PackagePath>
@@ -595,115 +628,306 @@
     <AppxPackagedFile Include="C:\Users\Ahmad\.nuget\packages\system.interactive.async\3.1.1\lib\netstandard1.3\System.Interactive.Async.dll">
       <PackagePath>System.Interactive.Async.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmad\.nuget\packages\system.memory\4.5.1\lib\netstandard2.0\System.Memory.dll">
+    <AppxPackagedFile Include="C:\Users\Ahmad\.nuget\packages\system.memory\4.5.4\lib\netstandard2.0\System.Memory.dll">
       <PackagePath>System.Memory.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmad\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.1\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+    <AppxPackagedFile Include="C:\Users\Ahmad\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.3\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
       <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\MoviesDataLayer\bin\Debug\netstandard2.0\MoviesDataLayer.dll">
+    <AppxPackagedFile Include="C:\Users\Ahmad\.nuget\packages\win2d.uwp\1.25.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\MoviesDataLayer\bin\Debug\netstandard2.0\MoviesDataLayer.dll">
       <PackagePath>MoviesDataLayer.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\.nuget\packages\win2d.uwp\1.25.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
+      <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\.nuget\packages\microsoft.toolkit.uwp.ui.controls\6.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\Microsoft.Toolkit.Uwp.UI.Controls.xr.xml">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Microsoft.Toolkit.Uwp.UI.Controls.xr.xml</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ahmad\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\6.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\Assets\Avengers.jpg">
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\Avengers.jpg">
       <PackagePath>Assets\Avengers.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\Assets\BreakingBad.jpg">
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\BreakingBad.jpg">
       <PackagePath>Assets\BreakingBad.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\Assets\Chess.jpg">
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\Chess.jpg">
       <PackagePath>Assets\Chess.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\Assets\Joker.jpg">
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\Joker.jpg">
       <PackagePath>Assets\Joker.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\Assets\me.jpg">
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\me.jpg">
       <PackagePath>Assets\me.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\Assets\MrRobot.jpg">
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\MrRobot.jpg">
       <PackagePath>Assets\MrRobot.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\Assets\Rick&amp;Morty.jpg">
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\Rick&amp;Morty.jpg">
       <PackagePath>Assets\Rick&amp;Morty.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\BadgeLogo.scale-200.png">
+      <PackagePath>Assets\BadgeLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\multimedia.png">
+      <PackagePath>Assets\multimedia.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\SmallTile.scale-125.png">
+      <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\SmallTile.scale-150.png">
+      <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\Assets\StoreLogo.png">
-      <PackagePath>Assets\StoreLogo.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Movies.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\bin\x86\Debug\Movies.xr.xml">
       <PackagePath>Movies.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Views\ControlPanel.xbf">
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\bin\x86\Debug\Views\ControlPanel.xbf">
       <PackagePath>Views\ControlPanel.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Views\Favorite.xbf">
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\bin\x86\Debug\Views\Favorite.xbf">
       <PackagePath>Views\Favorite.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Views\LoginPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\bin\x86\Debug\Views\LoginPage.xbf">
       <PackagePath>Views\LoginPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Views\Main.xbf">
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\bin\x86\Debug\Views\Main.xbf">
       <PackagePath>Views\Main.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Views\MainPage.xbf">
-      <PackagePath>Views\MainPage.xbf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Views\Movies.xbf">
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\bin\x86\Debug\Views\Movies.xbf">
       <PackagePath>Views\Movies.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Views\MoviesDataGrid.xbf">
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\bin\x86\Debug\Views\MoviesDataGrid.xbf">
       <PackagePath>Views\MoviesDataGrid.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Views\MyAccount.xbf">
-      <PackagePath>Views\MyAccount.xbf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Views\MyCard.xbf">
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\bin\x86\Debug\Views\MyCard.xbf">
       <PackagePath>Views\MyCard.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Views\OwnedMovies.xbf">
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\bin\x86\Debug\Views\OwnedMovies.xbf">
       <PackagePath>Views\OwnedMovies.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Views\RegisterPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\bin\x86\Debug\Views\RegisterPage.xbf">
       <PackagePath>Views\RegisterPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Views\UserDataGrid.xbf">
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\bin\x86\Debug\Views\Settings.xbf">
+      <PackagePath>Views\Settings.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\bin\x86\Debug\Views\Subscription.xbf">
+      <PackagePath>Views\Subscription.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\bin\x86\Debug\Views\UserDataGrid.xbf">
       <PackagePath>Views\UserDataGrid.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
@@ -715,10 +939,10 @@
     <AppxPackagedFile Include="C:\Users\Ahmad\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
       <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\School\IPB\Application-Development\wd-final-project-group-17\Movies\bin\x86\Debug\Core\Movies.exe">
+    <AppxPackagedFile Include="C:\Users\Ahmad\Desktop\MyProject\wd-final-project-group-17\Movies\bin\x86\Debug\Core\Movies.exe">
       <PackagePath>Movies.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
